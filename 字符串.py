@@ -1,0 +1,20 @@
+print(1+1)
+print('1'+'1')
+print(type(1))
+print(type('1'))
+print('河崽'+'Python')
+name='河崽'
+age=18
+hobby='Python'
+print('我叫'+name+',今年'+str(age)+'岁'+',最喜欢'+hobby)
+print(f'我叫{name},今年{age}岁,最喜欢{hobby}')
+print(f'我叫{name},'
+      f'今年{age}岁'
+      f',最喜欢{hobby}')
+print(f'我叫{name}',
+      f'今年{age}岁',
+      f'最喜欢{hobby}',
+      sep='\n')
+print('3'*3)
+print('='*10)
+print('python'=='Python')
